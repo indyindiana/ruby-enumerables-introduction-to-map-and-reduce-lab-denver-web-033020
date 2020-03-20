@@ -67,18 +67,11 @@ def reduce_to_any_true(source_array)
     else 
       counter += 1 
     end
-    if source_array[counter2] == false
-      counter2 += 1 
+    if counter == source_array.length
+      return false
     end 
-    if counter 2 == source_array.length
-      return false 
-    end
-  end
+  end 
 end
-  
-    
-    
-    
     
     
 
